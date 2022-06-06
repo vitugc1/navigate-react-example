@@ -27,7 +27,6 @@ export const Home = () => {
     getAlldata()
   }, [])
   
-
   return (
     <Container>
       <Button
@@ -43,6 +42,7 @@ export const Home = () => {
           <Text>{item.title}</Text>
         )}
       />
+      
     </Container>
   )
 }
